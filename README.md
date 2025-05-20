@@ -21,7 +21,12 @@
 
 ## Installation
 
-Clone or download this repository to PowerShell module location (e.g., `C:\Program Files\PowerShell\6\Modules\`).
+Use this command
+   ```powershell
+   Install-Module -Name LinuxLoveWindows
+   ```
+
+or download this repository to PowerShell module location (e.g., `C:\Program Files\PowerShell\6\Modules\`).
 
 ## Usage
 
