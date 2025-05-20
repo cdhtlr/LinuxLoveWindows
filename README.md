@@ -1,4 +1,5 @@
-# LinuxLoveWindows
+# Linux 💘 Windows
+![Thumbnail](thumbnail.png)
 
 **LinuxLoveWindows** is a PowerShell module that helps you save and load commands from your Windows Subsystem for Linux (WSL) environment into your PowerShell session.
 
@@ -6,6 +7,11 @@
 
 - Imports Linux commands into PowerShell.
 - Loads previously saved Linux commands automatically on module import.
+
+## Demo
+![Demo](demo.gif)
+
+📽️[Open YouTube to watch the full demo in Bahasa Indonesia](https://www.youtube.com/watch?v=tZlmCbHwXfg)
 
 ## Requirements
 
