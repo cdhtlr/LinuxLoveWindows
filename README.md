@@ -37,6 +37,8 @@ or download this repository to PowerShell module location (e.g., `C:\Program Fil
    ```
 3. Add the following line:
    ```powershell
+   #Uncomment the line below to ensure all Linux commands are imported and replace equivalent Windows commands when doing 'Import-Linux'.
+   #$env:LINUX_CMD="all"
    Import-Module LinuxLoveWindows
    ```
 4. Save and close the profile file.
@@ -44,8 +46,9 @@ or download this repository to PowerShell module location (e.g., `C:\Program Fil
    ```powershell
    Import-Linux
    ```
+   It will import commands that are not present in Windows unless accompanied by an environment variable. You can import all commands to the current PowerShell session with 'Import-Linux -all'.
 
-This function will retrieve a list of commands from Linux, filter them, and import each command into your PowerShell session.
+This function will collect a list of commands from Linux, filter them, and import each command into your PowerShell session.
 
 ## Note
 
